@@ -1,0 +1,61 @@
+/* การตั้งค่าสำหรับ body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+/* การตั้งค่าสำหรับช่องกรอกชื่อลูกค้า */
+#customerName {
+    margin-bottom: 20px;
+}
+
+
+/* การตั้งค่าสำหรับการแสดงคิว */
+#queueList {
+    margin-top: 10px;
+    border-top: 2px solid rgb(0, 0, 0);
+    padding-top: 10px;
+    border-radius: 10px;
+    
+}
+
+#queueList { 
+    margin-bottom: 10px;
+}
+/* การตั้งค่าสำหรับการแสดงคิว */
+#queueList p {
+    margin: 0px 0px 20px;
+            padding: 10px;  /* Padding เพื่อให้ดูดีขึ้น */
+            background-color: rgb(230, 189, 248);
+            border-radius: 50%;
+            border: 1px solid #151212; /* โครงสำหรับให้ดูดีขึ้น */
+            text-align: center;
+            display: inline-block;
+            margin-right: 10px;
+            border-radius: 50px; /* มุมโค้ง */
+            margin-bottom: 10px; /* เพิ่มระยะห่างระหว่างย่อหน้า */
+            line-height: 2.5;
+        }
+    
+
+/* การตั้งค่าสำหรับปุ่ม 'เข้าคิว' */
+#enqueueBtn {
+    background-color: #f2a6d6; /* สีพื้นหลังชมพู */
+    color: rgb(12, 11, 11); /* สีข้อความ */
+    padding: 10px 20px; /* Padding เพื่อให้ดูดีขึ้น */
+    border: none; /* ไม่มีเส้นขอบ */
+    border-radius: 5px; /* มุมโค้ง */
+    cursor: pointer; /* ปรากฏเมื่อโฮเวอร์ */
+}
+
+/* การตั้งค่าสำหรับปุ่ม 'เรียกลูกค้าต่อไป' */
+#dequeueBtn {
+    background-color: #24eadd; /* สีพื้นหลังเขียวอมน้ำเงิน */
+    color: rgb(23, 21, 21); /* สีข้อความ */
+    padding: 10px 20px; /* Padding เพื่อให้ดูดีขึ้น */
+    border: none; /* ไม่มีเส้นขอบ */
+    border-radius: 5px; /* มุมโค้ง */
+    cursor: pointer; /* ปรากฏเมื่อโฮเวอร์ */
+}

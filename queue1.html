@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Queue System</title><!-- กำหนดหัวข้อของหน้าเว็บ -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ส่วนหัวของระบบพร้อมชื่อ -->
+    <h1>Restaurant Queue System</h1>
+    <!-- ช่องกรอกชื่อลูกค้า -->
+    <input type="text" id="customerName" placeholder="Enter customer name">
+    <!-- ช่องกรอกเบอร์โทรศัพท์ของลูกค้า -->
+    <input type="tel" id="customerPhone" placeholder="Enter customer phone">
+    <!-- ปุ่มเพื่อเพิ่มลูกค้าเข้าคิว -->
+    <button id="enqueueBtn">Join Queue</button>
+    <!-- ปุ่มเรียกลูกค้าต่อไป -->
+    <button id="dequeueBtn">Call Next</button>
+    <!-- ส่วนแสดงคิว -->
+    <div id="queueList"></div>
+
+    <!-- บรรทัดนี้เป็นการโหลดและเรียกใช้ไฟล์ JavaScript ที่ชื่อว่า script.js -->
+    <script src="script.js"></script> 
+</body>
+</html>
